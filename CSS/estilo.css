@@ -1,0 +1,240 @@
+
+body {
+  animation-name: animation_obo;
+  animation-duration: 5s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+.headert{
+	display: inline-block;
+	width: 100%;
+	height: 100px;
+	background-color: #317B96;
+
+}
+.gallery{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+	border-radius: 7px;
+}
+.divheader{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+}
+.logo{
+	vertical-align: baseline;
+	margin-left: 40px;
+	display: block;
+	float: left;
+}
+.ulhead{
+	display: inline-block;
+}
+.a{
+	text-decoration: none;
+	 color: #ededed;
+}
+.a_1{
+	text-decoration: none;
+	 color: black;
+}
+.li{
+	display: block;
+	float:left;
+	padding: 0px 25px;
+    font-size: 2vw;
+    line-height: 70px;
+    color: #ededed;
+    font-family: 'Ubuntu', 'Helvetica', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+}
+.navi{
+	overflow: auto;
+	vertical-align: baseline;
+	display: block;
+	float: right;
+	width: 100%;
+	margin-left: 2rem;
+	margin-right: 2rem;
+
+}
+.arth2{
+	
+	border-bottom: 3px solid #972334;
+	text-align: left;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-family: 'Verdana', 'Arial', sans-serif;
+}
+
+.arth1{
+	border-left: 6px solid #972334;
+	text-align: left;
+	text-decoration: none;
+	letter-spacing: 1px;
+	font-family: 'Verdana', 'Arial', sans-serif;
+}
+
+.artp{
+	text-align: justify;
+	text-decoration: none;
+	letter-spacing: 1px;
+	font-family: 'Verdana', 'Arial', sans-serif;
+	text-indent: 20px;
+	font-size: .86em;
+}
+
+.foot{
+	background-color: #317B96;
+	text-align: center;
+	font-weight: bold;
+	font-family: font-family: 'Ubuntu', 'Helvetica', sans-serif;
+	font-size: 1rem;
+	display: inline-block;
+	text-decoration: none;
+	width: 100%;
+	height: 3rem;
+	padding: 10px 5px 10px 5px;
+	vertical-align: baseline;
+	color: #ededed;
+}
+.divsup{
+	display: inline-block;
+	align-items: center;
+}
+
+
+
+.divsup2{
+	overflow: hidden;
+	margin: auto;
+	display: block;
+
+}
+
+
+
+.divaside{
+	float: left;
+	overflow: hidden;
+	margin: auto;
+}
+
+
+
+.div-text{
+	text-align: justify;
+	padding: 5vw 5vw 5vw 5vw;
+}
+
+section{
+	float: left;
+	display: block;
+	width: 65%;
+}
+
+article{
+	align-items: center;
+	width: auto;
+    margin: 40px 40px 40px 40px;
+    padding: 40px 40px 40px 40px;
+    border-right: 1px solid #DBDBDB;
+    float: left;
+    overflow: hidden;
+	border-radius: 5px;
+	background-color: #7AD6FB;
+
+}
+aside{
+	overflow: hidden;
+	display: inline-block;
+	float: left;
+	border-radius: 5px;
+	background-color: #5E9BE3;
+	margin-top: 40px;
+	width: 25%;
+	height: 100%;
+	align-items: center;
+	font-family: 'Ubuntu', 'Helvetica';
+	
+}
+
+a:hover{
+	color: #BFBFBF;
+	animation-name: girar;
+	animation-duration: 2s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+	animation-direction: normal;
+}
+
+.img:hover{
+	animation-name: girar;
+	animation-duration: 2s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+	animation-direction: normal;
+	height: 15vw;
+	width: 15vw;
+}
+
+.img{
+	height: 15vw;
+	width: 15vw;
+}
+.img2{
+	height: 15vw;
+	width: 15vw;
+}
+.img2:hover{
+	animation-name: animation_lomito;
+	animation-duration: 3s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+	animation-direction: alternate-reverse;
+}
+
+@keyframes animation_obo{
+	from{
+		background-color: #C4F5FC
+	}
+	to{
+		background-color: #317B96
+	}
+}
+
+@keyframes girar{
+	from{
+		transform: rotate(0deg);
+	}
+	to{
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes label-animation{
+	from{
+		transform: rotate(0deg);
+		margin-left: 0;
+	}
+	to{
+		transform: rotate(180deg);
+		margin-left: 85vw;
+	}
+}
+
+@keyframes animation_lomito{
+	from{
+		height: 15vw;
+		width: 15vw;
+	}
+	to{
+		height: 18vw;
+		width: 18vw;
+	}
+}
